@@ -17,6 +17,7 @@ Installation
 The best way to install is to use the composer by command:
 
 composer require newclass/via
+
 composer install
 
 Use example

@@ -1,12 +1,12 @@
 {
-    "name": "newclass/via",
+    "name": "iteracja/via",
     "description": "The Php router.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Michal Tomczak",
-            "email": "michal.tomczak@newclass.pl"
+            "email": "michal.tomczak@iteracja.com"
         }
     ],
     "require": {

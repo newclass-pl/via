@@ -15,18 +15,36 @@ namespace Test\Asset;
 
 use Via\Dispatcher;
 
+/**
+ * Class TestDispatcher
+ * @package Test\Asset
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
+ */
 class TestDispatcher implements Dispatcher{
 
+    /**
+     * @var string
+     */
 	private $name;
 
+    /**
+     * TestDispatcher constructor.
+     * @param string $name
+     */
 	public function __construct($name){
 		$this->name=$name;
 	}
 
+    /**
+     * @return string
+     */
 	public function getName(){
 		return $this->name;
 	}
 
+    /**
+     *
+     */
 	public function execute(){
 		//ignore
 	}

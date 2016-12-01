@@ -17,6 +17,7 @@ namespace Via;
 /**
  * Class ActionNotFoundException
  * @package Via
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
 class ActionNotFoundException extends \Exception
 {

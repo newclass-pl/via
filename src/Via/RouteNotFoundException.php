@@ -16,9 +16,7 @@ namespace Via;
 
 
 /**
- * Throw when executed url not configured in config/actions.xml
- *
- * @author Michal Tomczak (michal.tomczak@itephp.com)
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
 class RouteNotFoundException extends \Exception{
 	

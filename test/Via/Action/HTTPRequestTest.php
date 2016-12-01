@@ -17,9 +17,17 @@ namespace Test\Via;
 
 use Via\Action\HTTPRequest;
 
+/**
+ * Class HTTPRequestTest
+ * @package Test\Via
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
+ */
 class HTTPRequestTest extends \PHPUnit_Framework_TestCase
 {
 
+    /**
+     *
+     */
     public function testSetterGetter(){
         $request=new HTTPRequest('url','get');
 

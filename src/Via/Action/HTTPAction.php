@@ -20,6 +20,7 @@ use Via\Action;
 /**
  * Class HTTPAction
  * @package Via\Action
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
 class HTTPAction implements Action
 {

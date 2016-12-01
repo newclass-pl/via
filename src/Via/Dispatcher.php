@@ -18,7 +18,7 @@ namespace Via;
 /**
  * Dispatcher.
  *
- * @author Michal Tomczak (michal.tomczak@itephp.com)
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
 interface Dispatcher{
 

@@ -17,6 +17,7 @@ namespace Via;
 /**
  * Interface Action
  * @package Via
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
 interface Action
 {

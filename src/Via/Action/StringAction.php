@@ -20,6 +20,7 @@ use Via\Action;
 /**
  * Class StringAction
  * @package Via\Action
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
 class StringAction implements Action
 {

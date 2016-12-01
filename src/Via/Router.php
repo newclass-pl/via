@@ -17,8 +17,7 @@ namespace Via;
 
 /**
  * Factory for dispatcher. 
- *
- * @author Michal Tomczak (michal.tomczak@itephp.com)
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
 class Router{
 	

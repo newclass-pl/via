@@ -21,10 +21,18 @@ use Via\Action\InvalidArgumentException;
 use Via\Action\RegExAction;
 use Via\Action\StringAction;
 
+/**
+ * Class RegExActionTest
+ * @package Test\Via
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
+ */
 class RegExActionTest extends \PHPUnit_Framework_TestCase
 {
 
 
+    /**
+     *
+     */
     public function testSupport(){
 
         $action=new RegExAction('/[0-9]+/');
@@ -34,6 +42,9 @@ class RegExActionTest extends \PHPUnit_Framework_TestCase
 
     }
 
+    /**
+     *
+     */
     public function testMatch(){
 
         $action=new RegExAction('/[0-9]+/');

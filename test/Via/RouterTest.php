@@ -18,6 +18,11 @@ use Via\Action\HTTPRequest;
 use Via\Router;
 use Test\Asset\TestDispatcher;
 
+/**
+ * Class RouterTest
+ * @package Test\Via
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
+ */
 class RouterTest extends \PHPUnit_Framework_TestCase{
 
     /**
@@ -25,6 +30,9 @@ class RouterTest extends \PHPUnit_Framework_TestCase{
      */
 	private $router;
 
+    /**
+     *
+     */
 	protected function  setUp(){
 		$this->router=new Router();
 		$this->router->addAction(new HTTPAction('/users','get'),new TestDispatcher('route1'));
@@ -33,6 +41,9 @@ class RouterTest extends \PHPUnit_Framework_TestCase{
         $this->router->addAction(new HTTPAction('/users/{user}','post'),new TestDispatcher('route4'));
 	}
 
+    /**
+     *
+     */
 	public function testCreateDispatcher(){
 
         /**

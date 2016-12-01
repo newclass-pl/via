@@ -20,6 +20,7 @@ use Exception;
 /**
  * Class InvalidArgumentException
  * @package Via\Action
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
 class InvalidArgumentException extends \Exception
 {

@@ -18,6 +18,7 @@ namespace Via\Action;
 /**
  * Class HTTPRequest
  * @package Via\Action
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
 class HTTPRequest
 {

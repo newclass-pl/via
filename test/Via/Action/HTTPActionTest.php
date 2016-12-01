@@ -19,9 +19,17 @@ use Via\Action\HTTPAction;
 use Via\Action\HTTPRequest;
 use Via\Action\InvalidArgumentException;
 
+/**
+ * Class HTTPActionTest
+ * @package Test\Via
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
+ */
 class HTTPActionTest extends \PHPUnit_Framework_TestCase
 {
 
+    /**
+     *
+     */
     public function testConstructor(){
 
         $methods=['get','post','put','delete'];
@@ -40,6 +48,9 @@ class HTTPActionTest extends \PHPUnit_Framework_TestCase
 
     }
 
+    /**
+     *
+     */
     public function testConstructorInvalidArgumentException(){
 
         $exception=null;
@@ -54,6 +65,9 @@ class HTTPActionTest extends \PHPUnit_Framework_TestCase
 
     }
 
+    /**
+     *
+     */
     public function testSupport(){
 
         $action=new HTTPAction('/user/{1}.html','get');
@@ -63,6 +77,9 @@ class HTTPActionTest extends \PHPUnit_Framework_TestCase
 
     }
 
+    /**
+     *
+     */
     public function testMatch(){
 
         $action=new HTTPAction('/user/{1}.html','get');

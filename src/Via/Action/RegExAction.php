@@ -20,6 +20,7 @@ use Via\Action;
 /**
  * Class RegExAction
  * @package Via\Action
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
 class RegExAction implements Action
 {

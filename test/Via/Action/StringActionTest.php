@@ -20,10 +20,17 @@ use Via\Action\HTTPRequest;
 use Via\Action\InvalidArgumentException;
 use Via\Action\StringAction;
 
+/**
+ * Class StringActionTest
+ * @package Test\Via
+ * @author Michal Tomczak (michal.tomczak@newclass.pl)
+ */
 class StringActionTest extends \PHPUnit_Framework_TestCase
 {
 
-
+    /**
+     *
+     */
     public function testSupport(){
 
         $action=new StringAction('short data');
@@ -33,6 +40,9 @@ class StringActionTest extends \PHPUnit_Framework_TestCase
 
     }
 
+    /**
+     *
+     */
     public function testMatch(){
 
         $action=new StringAction('short data');
